@@ -1,24 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import StyledNavbar from "./components/StyledNavbar";
+import SharedLayout from "./components/SharedLayout";
+import Projects from "./components/Projects";
+import Footer from "./components/Footer";
+import Profile from "./components/Profile";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Contact from "./components/Contact";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<SharedLayout />}>
+          <Route index element={<Projects />} />
+          <Route path="/profile" element={<Profile />} />
+          <Route path="/contact" element={<Contact />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
 

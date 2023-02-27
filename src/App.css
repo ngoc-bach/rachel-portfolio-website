@@ -1,38 +1,83 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html {
+  scroll-behavior: smooth;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+  width: 100%;
+  height: 100vh;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    background-color: #fbfbfb !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+h1 {
+  color: #001253
+}
+
+/* Navbar */
+.nav-brand {
+  color: #001253 !important;
+  font-family: 'Philosopher', sans-serif;
+}
+.nav-title {
+  margin: 0 auto;
+}
+
+.nav-link {
+  color: #d2d2d2;
+}
+
+.active {
+  text-decoration: underline !important;
+}
+
+/* Projects */
+.container-title {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  justify-content: space-between;
+}
+
+.project-img:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  transform: scale(1.02);
+}
+
+/* Footer */
+.footer {
+  margin-top: 7rem;
+  height: 150px;
+  border: 2px dashed #d2d2d2;
+}
+
+.footer-icon {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding-top: 2.5rem;
+  padding-bottom: 1rem;
 }
 
-.App-link {
-  color: #61dafb;
+.icon {
+  margin-right: 15px;
+  margin-left: 15px;
+  font-size: 1.75rem;
+  /* color: #2B3467; */
+  color: #d2d2d2;
+  border: #d2d2d2;
+  cursor: pointer;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.icon:hover {
+  color: #001253;
 }
