@@ -1,10 +1,8 @@
 import React from "react";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import StyledNavbar from "./components/StyledNavbar";
 import SharedLayout from "./components/SharedLayout";
 import Projects from "./components/Projects";
-import Footer from "./components/Footer";
 import Profile from "./components/Profile";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Contact from "./components/Contact";
