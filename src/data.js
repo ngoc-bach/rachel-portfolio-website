@@ -96,7 +96,7 @@ export const projects = [
     website: "https://rachel-portfolio.netlify.app",
     github: "https://github.com/ngoc-bach/rachel_portfolio",
     description:
-      "I am excited to showcase my latest portfolio, which I developed using cutting-edge technologies such as React and React-bootstrap. With a passion for creating dynamic and engaging user interfaces, I've crafted a sleek and modern design that showcases my skills and experience. Take a look and explore the projects I've worked on, and feel free to get in touch if you have any questions or collaboration opportunities.",
+      "This is my latest portfolio website, which I created using React and React-bootstrap. As a passionate web developer, I strive to build websites that are not only functional but also visually appealing and user-friendly. Please take a moment to browse through the projects I've worked on, and feel free to reach out to me if you have any questions.",
     duration: "3 days",
     team: "personal portfolio",
     stacks: [
