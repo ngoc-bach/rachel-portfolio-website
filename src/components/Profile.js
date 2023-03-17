@@ -14,16 +14,14 @@ const Profile = () => {
         <Row>
           <Col>
             <Card style={{ border: "none", backgroundColor: "#fbfbfb" }}>
-              <Card.Img src={picture} style={{ width: "50%" }} />
+              <Card.Img src={picture} style={{ maxWidth: "50%" }} />
             </Card>
           </Col>
-          <Col style={{ borderTop: "1px solid #001253" }}>
+          <Col xs={8} md={6} lg={6}>
             <Card
               style={{
                 border: "none",
                 backgroundColor: "#fbfbfb",
-                borderRadius: "0",
-                marginTop: "1rem",
               }}
             >
               <Card.Body style={{ marginBottom: "1rem" }}>

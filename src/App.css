@@ -58,7 +58,7 @@ h1 {
 .footer {
   margin-top: 7rem;
   height: 150px;
-  border: 2px dashed #d2d2d2;
+  border-top: 2px dashed #d2d2d2;
 }
 
 .footer-icon {
