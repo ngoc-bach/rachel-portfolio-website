@@ -1,12 +1,14 @@
 import dateful_laptop from "./images/dateful_laptop.png";
 import audikids_laptop from "./images/audikids_laptop.png";
+import audikids_tablet from "./images/audikids_tablet.png";
+import audikids_phone from "./images/audikids_phone.png";
 
 export const projects = [
   {
     id: 1,
     type: "Web App",
     name: "Dateful",
-    img: dateful_laptop,
+    imgFrames: [{ id: 1, img: dateful_laptop }],
     status: "Le Wagon | Melbourne | Final Project",
     website: "https://www.dateful.me/",
     github: "https://github.com/enazbanks/dateful",
@@ -49,7 +51,11 @@ export const projects = [
     id: 2,
     type: "Static Web App",
     name: "Audi Kids",
-    img: audikids_laptop,
+    imgFrames: [
+      { id: 1, img: audikids_laptop },
+      { id: 2, img: audikids_tablet },
+      { id: 3, img: audikids_phone },
+    ],
     status: "Personal Project | Melbourne | In progress",
     website: "https://audi-kids.netlify.app/",
     github: "https://github.com/ngoc-bach/Audi-Kids",
