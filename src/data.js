@@ -2,6 +2,7 @@ import dateful_laptop from "./images/dateful_laptop.png";
 import audikids_laptop from "./images/audikids_laptop.png";
 import audikids_tablet from "./images/audikids_tablet.png";
 import audikids_phone from "./images/audikids_phone.png";
+import portfolio_laptop from "./images/portfolio_laptop.png";
 
 export const projects = [
   {
@@ -63,6 +64,41 @@ export const projects = [
       "Audi Kids is an audio books web application designed to help children learn and improve their reading skills through engaging and interactive audio content. The idea for Audi Kids was developed with the goal of providing a fun and educational resource for children to enhance their reading experience.",
     duration: "2.5 weeks",
     team: "personal project",
+    stacks: [
+      {
+        id: 1,
+        url: "https://seeklogo.com/images/R/react-logo-7B3CE81517-seeklogo.com.png",
+      },
+      {
+        id: 2,
+        url: "https://seeklogo.com/images/J/javascript-js-logo-2949701702-seeklogo.com.png",
+      },
+      {
+        id: 3,
+        url: "https://seeklogo.com/images/H/html5-without-wordmark-color-logo-14D252D878-seeklogo.com.png",
+      },
+      {
+        id: 4,
+        url: "https://seeklogo.com/images/C/css-3-logo-023C1A7171-seeklogo.com.png",
+      },
+      {
+        id: 5,
+        url: "https://seeklogo.com/images/B/bootstrap-logo-3C30FB2A16-seeklogo.com.png",
+      },
+    ],
+  },
+  {
+    id: 3,
+    type: "Website",
+    name: "Portfolio",
+    imgFrames: [{ id: 1, img: portfolio_laptop }],
+    status: "Personal Portfolio | Melbourne | Completed",
+    website: "https://rachel-portfolio.netlify.app",
+    github: "https://github.com/ngoc-bach/rachel_portfolio",
+    description:
+      "I am excited to showcase my latest portfolio, which I developed using cutting-edge technologies such as React and React-bootstrap. With a passion for creating dynamic and engaging user interfaces, I've crafted a sleek and modern design that showcases my skills and experience. Take a look and explore the projects I've worked on, and feel free to get in touch if you have any questions or collaboration opportunities.",
+    duration: "3 days",
+    team: "personal portfolio",
     stacks: [
       {
         id: 1,
