@@ -1,12 +1,12 @@
-import project1 from "./images/dateful.png";
-import project2 from "./images/test.png";
+import dateful_laptop from "./images/dateful_laptop.png";
+import audikids_laptop from "./images/audikids_laptop.png";
 
 export const projects = [
   {
     id: 1,
     type: "Web App",
     name: "Dateful",
-    imgWeb: project1,
+    img: dateful_laptop,
     status: "Le Wagon | Melbourne | Final Project",
     website: "https://www.dateful.me/",
     github: "https://github.com/enazbanks/dateful",
@@ -49,7 +49,7 @@ export const projects = [
     id: 2,
     type: "Static Web App",
     name: "Audi Kids",
-    imgWeb: project2,
+    img: audikids_laptop,
     status: "Personal Project | Melbourne | In progress",
     website: "https://audi-kids.netlify.app/",
     github: "https://github.com/ngoc-bach/Audi-Kids",

@@ -9,7 +9,7 @@ const Project = ({ project }) => {
   const {
     type,
     name,
-    imgWeb,
+    img,
     status,
     website,
     github,
@@ -25,7 +25,7 @@ const Project = ({ project }) => {
           <Card.Img
             className="project-img"
             variant="bottom"
-            src={imgWeb}
+            src={img}
             style={{ boxShadow: "0 5px 15px rgba(0, 0, 0, 0.1)" }}
           />
         </Card>
