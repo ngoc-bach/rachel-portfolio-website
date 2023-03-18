@@ -14,7 +14,13 @@ const Profile = () => {
         <Row>
           <Col>
             <Card style={{ border: "none", backgroundColor: "#fbfbfb" }}>
-              <Card.Img src={picture} style={{ maxWidth: "50%" }} />
+              <Card.Img
+                src={picture}
+                style={{
+                  maxWidth: "50%",
+                  boxShadow: "0 5px 15px rgba(0, 0, 0, 0.1)",
+                }}
+              />
             </Card>
           </Col>
           <Col xs={8} md={6} lg={6}>
@@ -86,7 +92,13 @@ const Profile = () => {
           </Col>
           <Col>
             <Card style={{ border: "none", backgroundColor: "#fbfbfb" }}>
-              <Card.Img src={team} style={{ width: "100%" }} />
+              <Card.Img
+                src={team}
+                style={{
+                  width: "100%",
+                  boxShadow: "0 5px 15px rgba(0, 0, 0, 0.1)",
+                }}
+              />
             </Card>
           </Col>
         </Row>
@@ -118,7 +130,13 @@ const Profile = () => {
           </Col>
           <Col>
             <Card style={{ border: "none", backgroundColor: "#fbfbfb" }}>
-              <Card.Img src={marathon} style={{ width: "100%" }} />
+              <Card.Img
+                src={marathon}
+                style={{
+                  width: "100%",
+                  boxShadow: "0 5px 15px rgba(0, 0, 0, 0.1)",
+                }}
+              />
             </Card>
           </Col>
         </Row>

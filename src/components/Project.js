@@ -15,8 +15,7 @@ const Project = ({ project }) => {
     website,
     github,
     description,
-    duration,
-    team,
+    technologies,
     stacks,
   } = project;
   if (imgFrames.length === 1) {
@@ -73,12 +72,7 @@ const Project = ({ project }) => {
                 {description}
               </Card.Text>
               <Card.Text style={{ lineHeight: "1.75rem", fontSize: "1.15rem" }}>
-                <strong>Duration: </strong>
-                {duration}
-              </Card.Text>
-              <Card.Text style={{ lineHeight: "1.75rem", fontSize: "1.15rem" }}>
-                <strong>Team: </strong>
-                {team}
+                <em>{technologies}</em>
               </Card.Text>
             </Card.Body>
             <Card.Footer style={{ padding: "1rem" }}>
@@ -164,12 +158,7 @@ const Project = ({ project }) => {
                 {description}
               </Card.Text>
               <Card.Text style={{ lineHeight: "1.75rem", fontSize: "1.15rem" }}>
-                <strong>Duration: </strong>
-                {duration}
-              </Card.Text>
-              <Card.Text style={{ lineHeight: "1.75rem", fontSize: "1.15rem" }}>
-                <strong>Team: </strong>
-                {team}
+                <em>{technologies}</em>
               </Card.Text>
             </Card.Body>
             <Card.Footer style={{ padding: "1rem" }}>

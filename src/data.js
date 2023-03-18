@@ -15,8 +15,9 @@ export const projects = [
     github: "https://github.com/enazbanks/dateful",
     description:
       "Dateful is a web based app that offers couples a resource for different dates and dating ideas. We realized there was a gap in the current market for a platform to help diversify and spice up people's dating lives. The USP (unique selling point) of the site was that each member of the couple could “favorite” dates for their partner to see, or “secret” dates so that they could surprise their partner at a preferred time.",
-    duration: "2 weeks",
     team: "4 people",
+    technologies:
+      "Ruby on Rails | JavaScript | HTML | CSS | Bootstrap | Cloudinary | PostgreSQL",
     stacks: [
       {
         id: 1,
@@ -62,8 +63,8 @@ export const projects = [
     github: "https://github.com/ngoc-bach/Audi-Kids",
     description:
       "Audi Kids is an audio books web application designed to help children learn and improve their reading skills through engaging and interactive audio content. The idea for Audi Kids was developed with the goal of providing a fun and educational resource for children to enhance their reading experience.",
-    duration: "2.5 weeks",
     team: "personal project",
+    technologies: "React | JavaScript | HTML | CSS | React-bootstrap",
     stacks: [
       {
         id: 1,
@@ -97,8 +98,8 @@ export const projects = [
     github: "https://github.com/ngoc-bach/rachel_portfolio",
     description:
       "This is my latest portfolio website, which I created using React and React-bootstrap. As a passionate web developer, I strive to build websites that are not only functional but also visually appealing and user-friendly. Please take a moment to browse through the projects I've worked on, and feel free to reach out to me if you have any questions.",
-    duration: "3 days",
     team: "personal portfolio",
+    technologies: "React | JavaScript | HTML | CSS | React-bootstrap",
     stacks: [
       {
         id: 1,
