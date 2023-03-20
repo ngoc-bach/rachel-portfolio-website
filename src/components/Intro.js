@@ -5,7 +5,7 @@ const Intro = () => {
     <>
       <Col md="auto">
         <h5>
-          WED DEVELOPER | <em>FORMER CUSTOMER EXPERIENCE</em>
+          WEB DEVELOPER | <em>FORMER CUSTOMER EXPERIENCE</em>
         </h5>
         <br />
         <h1>Hi there, I am Rachel 👋</h1>
