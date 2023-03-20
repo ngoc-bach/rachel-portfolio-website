@@ -4,6 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import SharedLayout from "./components/SharedLayout";
 import Projects from "./components/Projects";
 import Profile from "./components/Profile";
+import Error from "./components/Error";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Contact from "./components/Contact";
 
@@ -15,6 +16,7 @@ function App() {
           <Route index element={<Projects />} />
           <Route path="/profile" element={<Profile />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/*" element={<Error />} />
         </Route>
       </Routes>
     </BrowserRouter>
