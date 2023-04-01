@@ -7,7 +7,11 @@ import resume from "../images/rachel_resume.pdf";
 
 const StyledNavbar = () => {
   return (
-    <Navbar style={{ marginTop: "2rem" }} expand="lg">
+    <Navbar
+      sticky="top"
+      style={{ marginTop: "2rem", backgroundColor: "#fbfbfb" }}
+      expand="lg"
+    >
       <Container
         style={{ borderBottom: "2px dashed #d2d2d2", paddingBottom: "2rem" }}
       >
@@ -18,7 +22,7 @@ const StyledNavbar = () => {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="nav-title">
             <NavLink
-              style={{ padding: "0 2rem", fontSize: "1.2rem" }}
+              style={{ padding: "0 1rem", fontSize: "1.2rem" }}
               to="/"
               className={({ isActive }) =>
                 isActive ? "nav-link active" : "nav-link"

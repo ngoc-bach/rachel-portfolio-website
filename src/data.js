@@ -3,6 +3,14 @@ import audikids_laptop from "./images/audikids_laptop.png";
 import audikids_tablet from "./images/audikids_tablet.png";
 import audikids_phone from "./images/audikids_phone.png";
 import portfolio_laptop from "./images/portfolio_laptop.png";
+import rails from "./logos/rails.png";
+import react from "./logos/react.png";
+import javascript from "./logos/javascript.png";
+import html5 from "./logos/html5.png";
+import css3 from "./logos/css-3.png";
+import bootstrap from "./logos/bootstrap.png";
+import postgresql from "./logos/postgresql.png";
+import cloudinary from "./logos/cloudinary.png";
 
 export const projects = [
   {
@@ -21,31 +29,31 @@ export const projects = [
     stacks: [
       {
         id: 1,
-        url: "https://seeklogo.com/images/R/rails-logo-DD0927D290-seeklogo.com.png",
+        url: rails,
       },
       {
         id: 2,
-        url: "https://seeklogo.com/images/J/javascript-js-logo-2949701702-seeklogo.com.png",
+        url: javascript,
       },
       {
         id: 3,
-        url: "https://seeklogo.com/images/H/html5-without-wordmark-color-logo-14D252D878-seeklogo.com.png",
+        url: html5,
       },
       {
         id: 4,
-        url: "https://seeklogo.com/images/C/css-3-logo-023C1A7171-seeklogo.com.png",
+        url: css3,
       },
       {
         id: 5,
-        url: "https://seeklogo.com/images/B/bootstrap-logo-3C30FB2A16-seeklogo.com.png",
+        url: bootstrap,
       },
       {
         id: 6,
-        url: "https://seeklogo.com/images/C/cloudinary-logo-91D46BA298-seeklogo.com.png",
+        url: cloudinary,
       },
       {
         id: 7,
-        url: "https://seeklogo.com/images/P/postgresql-logo-5309879B58-seeklogo.com.png",
+        url: postgresql,
       },
     ],
   },
@@ -68,23 +76,23 @@ export const projects = [
     stacks: [
       {
         id: 1,
-        url: "https://seeklogo.com/images/R/react-logo-7B3CE81517-seeklogo.com.png",
+        url: react,
       },
       {
         id: 2,
-        url: "https://seeklogo.com/images/J/javascript-js-logo-2949701702-seeklogo.com.png",
+        url: javascript,
       },
       {
         id: 3,
-        url: "https://seeklogo.com/images/H/html5-without-wordmark-color-logo-14D252D878-seeklogo.com.png",
+        url: html5,
       },
       {
         id: 4,
-        url: "https://seeklogo.com/images/C/css-3-logo-023C1A7171-seeklogo.com.png",
+        url: css3,
       },
       {
         id: 5,
-        url: "https://seeklogo.com/images/B/bootstrap-logo-3C30FB2A16-seeklogo.com.png",
+        url: bootstrap,
       },
     ],
   },
@@ -103,23 +111,23 @@ export const projects = [
     stacks: [
       {
         id: 1,
-        url: "https://seeklogo.com/images/R/react-logo-7B3CE81517-seeklogo.com.png",
+        url: react,
       },
       {
         id: 2,
-        url: "https://seeklogo.com/images/J/javascript-js-logo-2949701702-seeklogo.com.png",
+        url: javascript,
       },
       {
         id: 3,
-        url: "https://seeklogo.com/images/H/html5-without-wordmark-color-logo-14D252D878-seeklogo.com.png",
+        url: html5,
       },
       {
         id: 4,
-        url: "https://seeklogo.com/images/C/css-3-logo-023C1A7171-seeklogo.com.png",
+        url: css3,
       },
       {
         id: 5,
-        url: "https://seeklogo.com/images/B/bootstrap-logo-3C30FB2A16-seeklogo.com.png",
+        url: bootstrap,
       },
     ],
   },
