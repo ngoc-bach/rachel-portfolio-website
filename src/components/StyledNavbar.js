@@ -22,7 +22,7 @@ const StyledNavbar = () => {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="nav-title">
             <NavLink
-              style={{ padding: "0 1rem", fontSize: "1.2rem" }}
+              style={{ padding: "0 2rem", fontSize: "1.2rem" }}
               to="/"
               className={({ isActive }) =>
                 isActive ? "nav-link active" : "nav-link"
