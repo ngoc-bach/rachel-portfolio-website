@@ -18,7 +18,7 @@ export const projects = [
     type: "Web App",
     name: "Dateful",
     imgFrames: [{ id: 1, img: dateful_laptop }],
-    status: "Le Wagon | Melbourne | Final Project",
+    status: "Team Final Project | Melbourne | Le Wagon",
     website: "https://www.dateful.me/",
     github: "https://github.com/enazbanks/dateful",
     description:
