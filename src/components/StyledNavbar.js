@@ -3,7 +3,7 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import { NavLink } from "react-router-dom";
-import resume from "../images/Rachel_resume.docx";
+import resume from "../images/Rachel_resume_Agust31.docx";
 
 const StyledNavbar = () => {
   return (
