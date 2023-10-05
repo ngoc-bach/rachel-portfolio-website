@@ -3,7 +3,7 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import { NavLink } from "react-router-dom";
-import resume from "../images/Rachel_resume.pdf";
+import resume from "../images/rachel-resume.pdf";
 
 const StyledNavbar = () => {
   return (
@@ -22,7 +22,7 @@ const StyledNavbar = () => {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="nav-title">
             <NavLink
-              style={{ padding: "0 2rem", fontSize: "1.2rem" }}
+              style={{ fontSize: "1.2rem", margin: "0 1rem" }}
               to="/"
               className={({ isActive }) =>
                 isActive ? "nav-link active" : "nav-link"
@@ -31,7 +31,7 @@ const StyledNavbar = () => {
               Projects
             </NavLink>
             <NavLink
-              style={{ padding: "0 2rem", fontSize: "1.2rem" }}
+              style={{ fontSize: "1.2rem", margin: "0 1rem" }}
               to="/profile"
               className={({ isActive }) =>
                 isActive ? "nav-link active" : "nav-link"
@@ -41,11 +41,12 @@ const StyledNavbar = () => {
             </NavLink>
             <a
               href={resume}
+              className="nav-link"
               style={{
-                padding: "0 2rem",
                 fontSize: "1.2rem",
+                margin: "0 1rem",
                 textDecoration: "none",
-                color: "#FC7300",
+                color: "#f45d48",
               }}
               download
             >
