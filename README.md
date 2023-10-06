@@ -1,5 +1,9 @@
 # Getting Started with Create React App
 
+
+https://github.com/ngoc-bach/rachel-portfolio-website/assets/87818976/67ce394d-bf10-4d50-bc7a-0bd2fcf0ae8e
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
