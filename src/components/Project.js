@@ -22,12 +22,22 @@ const Project = ({ project }) => {
     return (
       <>
         <Col>
-          <Card style={{ border: "none", marginTop: "1rem" }}>
+          <Card
+            style={{
+              border: "none",
+              marginTop: "1rem",
+              display: "flex",
+              alignItems: "center",
+            }}
+          >
             <Card.Img
               className="project-img"
               variant="bottom"
               src={imgFrames[0].img}
-              style={{ boxShadow: "0 5px 15px rgba(0, 0, 0, 0.1)" }}
+              style={{
+                boxShadow: "0 5px 15px rgba(0, 0, 0, 0.1)",
+                width: "400px",
+              }}
             />
           </Card>
         </Col>
@@ -83,7 +93,7 @@ const Project = ({ project }) => {
                       <img
                         src={stack.url}
                         alt="programing language"
-                        style={{ maxWidth: "40%" }}
+                        style={{ maxWidth: "40%", width: "5rem" }}
                       />
                     </div>
                   );
