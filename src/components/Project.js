@@ -3,7 +3,7 @@ import Col from "react-bootstrap/Col";
 import Stack from "react-bootstrap/Stack";
 import Carousel from "react-bootstrap/Carousel";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGlobe } from "@fortawesome/free-solid-svg-icons";
+// import { faGlobe } from "@fortawesome/free-solid-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 const Project = ({ project }) => {
@@ -56,13 +56,13 @@ const Project = ({ project }) => {
                     {type}: {name}
                   </strong>
                   <Stack direction="horizontal" gap={1}>
-                    <a href={website}>
+                    {/* <a href={website}>
                       <FontAwesomeIcon
                         className="icon"
                         icon={faGlobe}
                         style={{ fontSize: "1.25rem", color: "#001253" }}
                       />
-                    </a>
+                    </a> */}
                     <a href={github}>
                       <FontAwesomeIcon
                         className="icon"
@@ -142,13 +142,13 @@ const Project = ({ project }) => {
                     {type}: {name}
                   </strong>
                   <Stack direction="horizontal" gap={1}>
-                    <a href={website}>
+                    {/* <a href={website}>
                       <FontAwesomeIcon
                         className="icon"
                         icon={faGlobe}
                         style={{ fontSize: "1.25rem", color: "#001253" }}
                       />
-                    </a>
+                    </a> */}
                     <a href={github}>
                       <FontAwesomeIcon
                         className="icon"
