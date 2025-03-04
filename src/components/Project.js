@@ -12,7 +12,7 @@ const Project = ({ project }) => {
     name,
     imgFrames,
     status,
-    website,
+    // website,
     github,
     description,
     technologies,
